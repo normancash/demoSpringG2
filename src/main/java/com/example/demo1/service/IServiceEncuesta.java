@@ -12,4 +12,8 @@ public interface IServiceEncuesta {
     public List<Encuesta> getAll();
 
     public void save(EncuestaDTO encuestaDTO);
+
+    public boolean delete(Integer id);
+
+    public void update(EncuestaDTO encuestaDTO);
 }
